@@ -1,0 +1,89 @@
+{
+    "listofimplogs": "NumVariables: 2\nInput List:  [0, 0, 1, 1]\nLogic: B\n\nNumVariables: 2\nInput List:  [0, 1, 0, 0]\nLogic: (~B ^ A)\n\nNumVariables: 3\nInput List:  [1, 1, 0, 0, 1, 1, 1, 0]\nLogic: (~A) V (A ^ B ^ C)\n\nNumVariables: 2\nInput List:  [1, 1, 0, 0]\nLogic: ~B\n\nNumVariables: 3\nInput List:  [1, 1, 0, 0, 0, 1, 1, 0]\nLogic: (~A ^ ~C) V (~A ^ B) V (B ^ C)\n\nNumVariables: 1\nInput List:  [1, 1]\nLogic: 1\n\n",
+    "truthtables": [
+        {
+            "numvariables": 2,
+            "logic": "B",
+            "truthtableinputs": [
+                0,
+                0,
+                1,
+                1
+            ]
+        },
+        {
+            "numvariables": 1,
+            "logic": "1",
+            "truthtableinputs": [
+                1,
+                1
+            ]
+        },
+        {
+            "numvariables": 2,
+            "logic": "(~B ^ A)",
+            "truthtableinputs": [
+                0,
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "numvariables": 1,
+            "logic": "0",
+            "truthtableinputs": [
+                0,
+                0
+            ]
+        },
+        {
+            "numvariables": 3,
+            "logic": "(~A) V (A ^ B ^ C)",
+            "truthtableinputs": [
+                1,
+                1,
+                0,
+                0,
+                1,
+                1,
+                1,
+                0
+            ]
+        },
+        {
+            "numvariables": 2,
+            "logic": "~B",
+            "truthtableinputs": [
+                1,
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "numvariables": 3,
+            "logic": "(~A ^ ~C) V (~A ^ B) V (B ^ C)",
+            "truthtableinputs": [
+                1,
+                1,
+                0,
+                0,
+                0,
+                1,
+                1,
+                0
+            ]
+        },
+        {
+            "numvariables": 1,
+            "logic": "~A",
+            "truthtableinputs": [
+                1,
+                0
+            ]
+        }
+    ],
+    "listoflogs": "NumVariables: 2\nInput List:  [0, 0, 1, 1]\nLogic: B\n\nNumVariables: 1\nInput List:  [1, 1]\nLogic: 1\n\nNumVariables: 2\nInput List:  [0, 1, 0, 0]\nLogic: (~B ^ A)\n\nNumVariables: 1\nInput List:  [0, 0]\nLogic: 0\n\nNumVariables: 3\nInput List:  [1, 1, 0, 0, 1, 1, 1, 0]\nLogic: (~A) V (A ^ B ^ C)\n\nNumVariables: 2\nInput List:  [1, 1, 0, 0]\nLogic: ~B\n\nNumVariables: 3\nInput List:  [1, 1, 0, 0, 0, 1, 1, 0]\nLogic: (~A ^ ~C) V (~A ^ B) V (B ^ C)\n\nNumVariables: 1\nInput List:  [1, 0]\nLogic: ~A\n\n",
+    "name": "Krithik's Workspace"
+}

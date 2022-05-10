@@ -1,0 +1,25 @@
+{
+  "listofimplogs": "",
+  "truthtables": [
+    {
+      "numvariables": 1,
+      "logic": "1",
+      "truthtableinputs": [
+        1,
+        1
+      ]
+    },
+    {
+      "numvariables": 2,
+      "logic": "(~B ^ ~A)",
+      "truthtableinputs": [
+        1,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "listoflogs": "NumVariables: 1\nInput List:  [1, 1]\nLogic: 1\n\nNumVariables: 2\nInput List:  [1, 0, 0, 0]\nLogic: (~B ^ ~A)\n\n",
+  "name": "Krithik's Workspace"
+}

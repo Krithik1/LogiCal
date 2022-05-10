@@ -1,0 +1,27 @@
+{
+    "listofimplogs": "def",
+    "truthtables": [
+        {
+            "numvariables": 2,
+            "logic": "(~B ^ ~A) V (B ^ A)",
+            "truthtableinputs": [
+                1,
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "numvariables": 2,
+            "logic": "1",
+            "truthtableinputs": [
+                1,
+                1,
+                1,
+                1
+            ]
+        }
+    ],
+    "listoflogs": "xyz",
+    "name": "abc"
+}
